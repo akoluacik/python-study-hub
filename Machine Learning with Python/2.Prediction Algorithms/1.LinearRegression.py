@@ -5,6 +5,12 @@ Created on Fri Apr 22 00:49:18 2022
 @author: anilk
 """
 
+"""
+When there is only one feature presents.
+y=ax+b
+"""
+
+
 #modules
 import numpy as np
 import pandas as pd
