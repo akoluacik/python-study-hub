@@ -39,6 +39,10 @@ lin_reg4 = LinearRegression()
 lin_reg4.fit(x_poly4, Y)
 
 # prediction 
+
+print(lin_reg.predict(6.6))
+print(lin_reg.predict(11))
+
 print(lin_reg2.predict(poly_reg2.fit_transform([[6.6]])))
 print(lin_reg2.predict(poly_reg2.fit_transform([[11]])))
 
